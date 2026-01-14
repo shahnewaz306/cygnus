@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 
 using namespace std;
@@ -28,6 +29,7 @@ double d4(double x, double h)
 }
 int main()
 {
+    
     double x = 1.0;
     double h_start = 0.1;
     int N = 5;
@@ -39,6 +41,7 @@ int main()
 
     double current_h = h_start;
     for (int i = 0; i < N; i++)
+        
     {
         h_values.push_back(current_h);
         approx2_values.push_back(d2(x, current_h));
@@ -72,6 +75,7 @@ file << left << setw(10) << "# h"
              << errR << endl;
     }
 
+    
     file.close();
     cout << "Data has been successfully saved to error_data.txt" << endl;
 
