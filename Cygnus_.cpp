@@ -1,20 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 using namespace std;
-
 
 double f(double x)
 {
     return sin(x);
 }
 
-
 double exact(double x)
 {
     return cos(x);
 }
-
 
 double d2(double x, double h)
 {
